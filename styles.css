@@ -1,0 +1,89 @@
+/* Basic color variables */
+:root {
+  --primary-color: #375a7f;
+  --link-color: #007bff;
+  --background-color: #f9f9f9;
+  --container-bg: #fff;
+  --text-color: #222;
+}
+
+/* Body and container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: var(--container-bg);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Headings */
+h1, h2 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: var(--primary-color);
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: left;
+}
+
+th {
+  background-color: #eaf2fb;
+}
+
+/* Horizontal line */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
